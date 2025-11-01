@@ -1,4 +1,5 @@
 import requests
+import json
 
 ise_pan = "1.1.1.1"
 connector_name = "Test-Pusher"
@@ -16,3 +17,5 @@ r = requests.delete(
 
 # Raise an exception for HTTP errors
 r.raise_for_status()
+# Print response
+print(json.dumps(r.json(),indent=4))
