@@ -1,5 +1,6 @@
 import requests
 import csv
+import json
 
 ###############################
 ## Bulk Update API call does not seem to work, you can use Bulk Create to Bulk Update attributes
@@ -29,3 +30,5 @@ r = requests.post(
 
 # Raise an exception for HTTP errors
 r.raise_for_status()
+# Print response
+print(json.dumps(r.json(),indent=4))
