@@ -1,0 +1,25 @@
+import requests
+import csv
+import json
+
+###############################
+## GET does not seem to work for ISE 3.4, Works in ISE 3.5
+###############################
+
+ise_pan = "1.1.1.1"
+connector_name = "Test-Pusher"
+pxgrid_direct_user = "pxgrid_user"
+pxgrid_direct_password = "pxgrid_password"
+
+pxgrid_direct_url = f"https://{ise_pan}/api/v1/pxgrid-direct/push/{connector_name}"
+
+r = requests.get(
+    pxgrid_direct_url,
+    auth=(pxgrid_direct_user, pxgrid_direct_password),
+    verify=False,
+)
+
+# Raise an exception for HTTP errors
+r.raise_for_status()
+# Print response
+print(json.dumps(r.json(), indent=4))
