@@ -1,10 +1,5 @@
 import requests
-import csv
 import json
-
-###############################
-## GET does not seem to work for ISE 3.4, Works in ISE 3.5
-###############################
 
 ise_pan = "1.1.1.1"
 connector_name = "Test-Pusher"
