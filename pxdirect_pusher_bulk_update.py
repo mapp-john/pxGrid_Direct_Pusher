@@ -2,10 +2,6 @@ import requests
 import csv
 import json
 
-###############################
-## Bulk Update API call does not seem to work, you can use Bulk Create to Bulk Update attributes
-###############################
-
 ise_pan = "1.1.1.1"
 connector_name = "Test-Pusher"
 pxgrid_direct_user = "pxgrid_user"
