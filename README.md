@@ -1,5 +1,5 @@
 # pxgrid-direct-pusher - Cisco ISE 3.4+
-## Setup pxGrid Direct Connector
+## Setup pxGrid Direct Pusher Connector
 1. Create a new ERS Admin user if you haven't already
 2. Navigate to ***Administration -> Network Resources -> pxGrid Direct Connectors***
 3. Click "Add", then click "Let's Do It"
