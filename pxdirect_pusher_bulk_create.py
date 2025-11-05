@@ -41,4 +41,4 @@ r = requests.post(
 # Raise an exception for HTTP errors
 r.raise_for_status()
 # Print response
-print(json.dumps(r.json(),indent=4))
+print(json.dumps(r.json(), indent=4))
