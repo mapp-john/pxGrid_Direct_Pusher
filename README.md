@@ -28,5 +28,5 @@
 16. Review Summary, then click "Done"
 
 ## View Endpoints in Dictionary
-1. Navigate to ***Context Visibility -> Endpionts -> pxGrid Direct***
+1. Navigate to ***Context Visibility -> Endpoints -> pxGrid Direct***
 2. If you have multiple pxGrid Direct Connectors, select "Test-Pusher" from the dropdown
