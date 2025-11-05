@@ -15,6 +15,20 @@ with open("pxdirect_pusher_endpoints_create.csv") as file:
     for row in reader:
         data.append(row)
 
+## Create individual entry using bulk call
+# pxgrid_direct_data = {
+#     "operation": "create",
+#     "data": [
+#         {
+#             "mac": "66:66:66:66:66:66",
+#             "hostname": "nyc-hv-01",
+#             "type": "iot",
+#             "role": "hvac",
+#             "location": "New York",
+#         }
+#     ],
+# }
+
 pxgrid_direct_data = {"operation": "create", "data": data}
 
 r = requests.post(
