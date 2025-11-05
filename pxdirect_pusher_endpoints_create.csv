@@ -1,8 +1,8 @@
-mac,hostname,type,role,location
-55:55:55:55:55:55,sjc-hv-01,iot,hvac,San Jose
-66:66:66:66:66:66,nyc-hv-01,iot,hvac,New York
-77:77:77:77:77:77,san-prt-01,iot,printer,San Diego
-88:88:88:88:88:88,rtp-ldap-01,server,ldap,RTP
-99:99:99:99:99:99,dal-wks-01,thinclient,workstation,Dallas
-AA:AA:AA:AA:AA:AA,chi-wks-01,thinclient,workstation,Chicago
-BB:BB:BB:BB:BB:BB,den-wks-01,thinclient,workstation,Denver
+id,mac,hostname,type,role,location
+00001,55:55:55:55:55:55,sjc-hv-01,iot,hvac,San Jose
+00002,66:66:66:66:66:66,nyc-hv-01,iot,hvac,New York
+00003,77:77:77:77:77:77,san-prt-01,iot,printer,San Diego
+00004,88:88:88:88:88:88,rtp-ldap-01,server,ldap,RTP
+00005,99:99:99:99:99:99,dal-wks-01,thinclient,workstation,Dallas
+00006,AA:AA:AA:AA:AA:AA,chi-wks-01,thinclient,workstation,Chicago
+00007,BB:BB:BB:BB:BB:BB,den-wks-01,thinclient,workstation,Denver
