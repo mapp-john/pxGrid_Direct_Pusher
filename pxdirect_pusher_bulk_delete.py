@@ -15,11 +15,12 @@ with open("pxdirect_pusher_endpoints_delete.csv") as file:
     for row in reader:
         data.append(row)
 
-## Delete individual entry using bulk call
+# # Delete individual entry using bulk call
 # pxgrid_direct_data = {
 #     "operation": "delete",
 #     "data": [
 #         {
+#             "id": "00002",
 #             "mac": "66:66:66:66:66:66",
 #             "hostname": "nyc-hv-01",
 #             "type": "iot",
