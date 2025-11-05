@@ -3,7 +3,7 @@ import json
 
 ise_pan = "1.1.1.1"
 connector_name = "Test-Pusher"
-unique_id = "66:66:66:66:66:66"
+unique_id = "00002"
 pxgrid_direct_user = "pxgrid_user"
 pxgrid_direct_password = "pxgrid_password"
 
